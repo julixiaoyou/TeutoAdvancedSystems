@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Teuto Defense</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap" rel="stylesheet">
+
+<style>
+:root {
+    --navy-dark: #00339b; /* Deep institutional navy */
+    --light-text: #f4f6fa;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--navy-dark);
+    color: var(--light-text);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+}
+
+/* Header */
+header {
+    padding: 80px 20px 40px 20px;
+}
+.company-tagline {
+    margin-top: 10px;
+    font-size: 1.4rem;  /* Changed from 1rem - adjust as needed */
+    font-weight: 300;
+    letter-spacing: 1px;
+    opacity: 0.85;
+}
+
+
+.company-name {
+    font-size: 3.5rem;
+    font-weight: 800;
+    letter-spacing: 6px;
+}
+
+/* Main content */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Image container ensures proper scaling */
+.image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    background-color: var(--navy-dark);
+}
+
+.main-image {
+    width: 100%;
+    max-width: 520px;     /* Controls max visual size */
+    height: auto;
+    object-fit: contain;
+
+    display: block;
+}
+
+/* Psalm */
+.psalm {
+    max-width: 700px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.8;
+    opacity: 0.9;
+}
+
+/* Footer */
+footer {
+    padding: 40px 20px;
+    font-size: 0.9rem;
+    opacity: 0.75;
+}
+
+.contact {
+    margin-top: 10px;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .company-name {
+        font-size: 2.2rem;
+        letter-spacing: 3px;
+    }
+
+    .main-image {
+        max-width: 85%;
+    }
+
+    .psalm {
+        font-size: 1rem;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="company-name">TEUTO DEFENSE</div>
+     <div class="company-tagline">
+        Strengthening Europe using autonomous and teleoperated systems
+    </div>
+</header>
+
+<main>
+
+    <div class="image-container">
+        <img src="TeutoLogo.jpg" 
+             alt="Teuto Defense Symbol" 
+             class="main-image">
+    </div>
+
+    <div class="psalm">
+        “Blessed be the Lord, my rock,  
+        who trains my hands for war,  
+        and my fingers for battle.”  
+        <br><br>
+        — Psalm 144:1
+    </div>
+
+</main>
+
+<footer>
+    © 2026 Teuto Defense. All rights reserved.
+    <div class="contact">
+        Contact: TeutoDefense@protonmail.me
+    </div>
+</footer>
+
+</body>
+</html>
