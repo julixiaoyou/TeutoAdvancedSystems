@@ -1,2 +1,2 @@
 # TeutoDefense
-Website for my Defense Tech Company called Teuto Defense
+Website for my Defense Tech Company called Teuto Advanced Systems
